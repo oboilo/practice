@@ -35,9 +35,11 @@ if (month == "August"){
 
 
 
-var age = 1;
-if (age >= 18) {
-    console.log("Allowed")
+var age = 18;
+if (age > 18) {
+    document.write("<h2>Allowed</h2>")
+} else if (age == 18 ) {
+    document.write ("<h2>Maybe</h2>")
 } else {
-    console.log("Denied")
+    document.write("<h2>Denied</h2>")
 }
