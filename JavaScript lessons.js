@@ -112,5 +112,44 @@ for (; x <= 20; x += 2) {
    document.write(x + "<br />"); 
 }*/
 
-const expression = 10 * (7 + 8 - 11) / 4;
-document.write(expression)
+/*const myName = 'Oleh';
+const myAge = '24';
+// write your code below
+const resultString = `${myName}, ${myAge}!`;
+document.write(resultString);
+console.log(resultString);
+
+//
+const hasEggs = true;
+const hasFlour = !false;
+const hasSugar = !false;
+
+const canMakeCake = hasEggs && hasFlour && hasSugar; // don't change this line
+
+
+console.log(canMakeCake)*/
+
+// Your code here
+/*var seconds = 1;
+while (seconds <= 5) {
+    console.log(seconds);
+    document.write(seconds);
+    seconds = ++ 1;
+}*/
+
+var i=0;
+while (i<=5) {
+    document.write(i + "<br />");
+    console.log(i + "<br />");
+    i++;
+}
+
+document.write("<br />");
+console.log("   ");
+
+var i = 0;
+while (i <= 5) {
+    document.write(i + "<br />");
+    console.log(i + "<br />");
+    i = i + 1;
+}
